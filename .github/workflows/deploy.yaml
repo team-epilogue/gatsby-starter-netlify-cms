@@ -1,8 +1,6 @@
 on:
   push:
     branches: [ main ]
-    paths-ignore:
-      - "AuthFile"
 name: build gatsby
 jobs:
   build_gatsby:
