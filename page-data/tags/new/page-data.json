@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/new/","result":{"data":{"site":{"siteMetadata":{"title":"Gatsby + Netlify CMS Starter"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/blog/1667910911415/"},"frontmatter":{"title":"New Beginnings"}}}]}},"pageContext":{"tag":"new"}},"staticQueryHashes":["4080856488"]}
