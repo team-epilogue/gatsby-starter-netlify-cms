@@ -2,8 +2,9 @@
 template: blog-post
 templateKey: blog-post
 slug: /1668304655157
-featuredImage: /assets/post-image.png
+featuredImage: ./salty_egg.jpg
 featuredimage: ./salty_egg.jpg
+selectedImage: ./salty_egg.jpg
 author: githubId
 featured: false
 featuredpost: false
