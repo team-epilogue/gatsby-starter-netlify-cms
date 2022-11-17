@@ -1,17 +1,33 @@
 {
   "meta": {
-    "title": "Gatsby + Netlify CMS Starter",
+    "title": "",
     "author": {
       "name": "",
       "summary": "",
       "profile": ""
     },
-    "description": "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+    "description": "",
     "social": {
-      "github": "",
-      "gmail": "",
-      "instagram": "",
-      "twitter": ""
+      "github": {
+        "title": "github",
+        "username": "",
+        "url": "https://github.com/"
+      },
+      "twitter": {
+        "title": "twitter",
+        "username": "",
+        "url": "https://twitter.com/"
+      },
+      "instagram": {
+        "title": "instagram",
+        "username": "",
+        "url": "https://www.instagram.com/"
+      },
+      "email": {
+        "title": "email",
+        "username": "",
+        "url": "mailto:` }"
+      }
     }
   }
 }

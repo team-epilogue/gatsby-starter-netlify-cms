@@ -1,13 +1,14 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
+import Site from "../util/site.json";
 import logo from "../img/logo.svg";
-import facebook from "../img/social/facebook.svg";
+import github from "../img/github-icon.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
 
 const Footer = () => {
+  const social_ids = Site.meta.social;
   return (
     <footer className="footer has-background-black has-text-white-ter">
       <div className="content has-text-centered">
@@ -54,17 +55,14 @@ const Footer = () => {
               </section>
             </div>
             <div className="column is-4 social">
-              <a title="facebook" href="https://facebook.com">
-                <img src={facebook} alt="Facebook" style={{ width: "1em", height: "1em" }} />
+              <a title="github" href={social_ids["github"].url + social_ids["github"].username}>
+                <img src={github} alt="GitHub" style={{ width: "1em", height: "1em" }} />
               </a>
-              <a title="twitter" href="https://twitter.com">
+              <a title="twitter" href={social_ids["twitter"].url + social_ids["twitter"].username}>
                 <img className="fas fa-lg" src={twitter} alt="Twitter" style={{ width: "1em", height: "1em" }} />
               </a>
-              <a title="instagram" href="https://instagram.com">
+              <a title="instagram" href={social_ids["instagram"].url + social_ids["instagram"].username}>
                 <img src={instagram} alt="Instagram" style={{ width: "1em", height: "1em" }} />
-              </a>
-              <a title="vimeo" href="https://vimeo.com">
-                <img src={vimeo} alt="Vimeo" style={{ width: "1em", height: "1em" }} />
               </a>
             </div>
           </div>
