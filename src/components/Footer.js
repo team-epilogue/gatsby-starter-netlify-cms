@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-import Site from "../util/site.json";
+import Site from "../utils/site.json";
 import logo from "../img/logo.svg";
 import github from "../img/github-icon.svg";
 import instagram from "../img/social/instagram.svg";
